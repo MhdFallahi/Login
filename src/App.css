@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.login {
   min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.social-login {
+ display: inline-flex;
+
+}
+.social-login a { 
+  display: block;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-right: 60px; }
+  .social-login a:hover {
+    color: #fff; }
+  .social-login a.facebook {
+    background: #3b5998; }
+    .social-login a.facebook:hover {
+      background: #344e86; }
+  .social-login a.google {
+    background: #ea4335; }
+    .social-login a.google:hover {
+      background: #e82e1e; }
+
+
+.signUp{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.signUp a{
+  margin-left: 20px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.forgot{
+  display: flex;
+justify-content: end; 
+}
+.forgot_pass{
+  text-decoration: none;
+  margin-bottom: 10px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
